@@ -16,9 +16,9 @@ export const typeDefs = `#graphql
     }
     # we have to create a Query type
     type Query {
-        reviews: [Reviews],
+        reviews: [Review], # it should be 'Review' not 'Reviews'
         games: [Game],
-        Authors: [Author],
+        authors: [Author],
 
     }
 `;
